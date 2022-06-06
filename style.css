@@ -67,6 +67,46 @@ h2 {
   margin-top: 30px;
 }
 
+/* burgermenu */
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  font-size: 80%;
+  font-weight: 500;
+  color: #6c7957;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 3px;
+
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu {
+    display: contents;
+    text-align: right;
+  }
+
+  .main-menu .nav-links {
+    display: none;
+  }
+
+  .main-menu.shown .nav-links {
+    border-top: 1.5px solid #57643a;
+    margin-top: 5%;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+}
+
 /* FORSIDE*/
 
 /* OM MIG SIDE*/
