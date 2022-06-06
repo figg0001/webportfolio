@@ -1,0 +1,100 @@
+/* GENERELT*/
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  gap: 20px;
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+header .logo a {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+header .logo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  overflow-x: auto;
+  gap: 80px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  padding-block: 0.5rem;
+  color: white;
+  font-size: 0.7rem;
+  position: sticky;
+  top: 100vh;
+  margin-top: 40px;
+}
+
+footer p {
+  text-align: center;
+  max-width: none;
+}
+
+p {
+  font-size: 17px;
+}
+h2 {
+  margin-top: 30px;
+}
+
+/* FORSIDE*/
+
+/* OM MIG SIDE*/
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 50px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.grid_4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.selvportraet {
+  width: 190px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* TEMA 2 SIDE*/
+/* TEMA 3 SIDE*/
+/* TEMA 4 SIDE*/
+/* TEMA 5 SIDE*/
