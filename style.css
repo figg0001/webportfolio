@@ -1,4 +1,10 @@
 /* GENERELT*/
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
 
 img {
   max-width: 100%;
@@ -18,7 +24,8 @@ body {
 
 a {
   font-weight: 500;
-  color: white;
+  color: rgb(81, 75, 75);
+  text-decoration: none;
 }
 
 a:hover {
@@ -34,17 +41,20 @@ header {
   top: 0;
   gap: 20px;
   padding: 1rem 2rem;
-  background-color: rgb(47, 40, 40);
+  background-color: white;
+  box-shadow: 0 12px 50px 0 #f8f7f7e1;
 }
 
 header .logo a {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  color: #583139;
 }
 
 header .logo {
-  text-align: center;
-  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 header nav ul {
@@ -75,6 +85,12 @@ footer p {
 p {
   font-size: 17px;
 }
+h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
 h2 {
   margin-top: 30px;
 }
@@ -86,7 +102,7 @@ h2 {
   border: none;
   font-size: 80%;
   font-weight: 500;
-  color: #6c7957;
+  color: #edeeec;
   font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
@@ -110,7 +126,7 @@ h2 {
   }
 
   .main-menu.shown .nav-links {
-    border-top: 1.5px solid #57643a;
+    border-top: 1.5px solid #e2e5dd;
     margin-top: 5%;
     padding-top: 1rem;
     display: flex;
@@ -132,21 +148,21 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .grid_8 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 2fr;
-  gap: 10px;
   margin-bottom: 10px;
+  background-color: rgb(233, 229, 222);
 }
 
 .selvportraet {
   width: 190px;
   height: 100px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .streg {
@@ -157,7 +173,30 @@ h2 {
   margin-left: 6%;
 }
 
+h4 {
+  font-size: 200%;
+  text-align: center;
+  margin-top: 120px;
+}
+
 /* TEMA 2 SIDE*/
+
+.t2 {
+  max-width: 65ch;
+  margin-right: 20px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 50px;
+}
+
 /* TEMA 3 SIDE*/
 /* TEMA 4 SIDE*/
 /* TEMA 5 SIDE*/
