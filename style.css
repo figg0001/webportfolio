@@ -18,7 +18,6 @@ main {
 
 body {
   min-height: 100vh;
-  font-family: "Quicksand", sans-serif;
   line-height: 1.6;
   background-image: url(fotos/baggrund.svg);
   background-size: cover;
@@ -47,6 +46,7 @@ header {
   gap: 20px;
   padding: 1rem 2rem;
   background-color: white;
+  box-shadow: 0 12px 50px 0 #040404e1;
 }
 header .logo {
   text-align: left;
@@ -71,7 +71,6 @@ header nav ul {
 
 footer {
   padding-block: 0.5rem;
-  font-size: 0.7rem;
   position: sticky;
   top: 100vh;
   margin-top: 40px;
@@ -80,7 +79,8 @@ footer {
 footer p {
   text-align: center;
   max-width: none;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Cardo", serif;
+  font-size: 0.7rem;
 }
 
 p {
@@ -95,13 +95,14 @@ h1 {
   font-size: 2.3rem;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
-  color: white;
+  color: black;
   text-transform: uppercase;
 }
 h2 {
-  margin-top: 30px;
-  font-size: 1.5rem;
-  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
 }
 h3 {
@@ -119,7 +120,7 @@ h3 {
   font-size: 80%;
   font-weight: 500;
   color: #edeeec;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Cardo", serif;
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 3px;
@@ -159,7 +160,7 @@ h3 {
   grid-template-columns: 2fr 1fr;
   margin-bottom: 50px;
   background-color: black;
-  border: black solid 40px;
+  border: black solid 36px;
 }
 
 .grid_1-1 {
@@ -167,50 +168,47 @@ h3 {
   grid-template-columns: 1fr 1fr;
   margin-bottom: 40px;
   margin-top: 30px;
-  gap: 10px;
-}
-
-.grid_8 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 10px;
-  background-color: rgba(233, 229, 222, 0.601);
-  margin-top: 20px;
 }
 
 .selvportraet {
   width: 200px;
-  height: 100px;
+  height: 95px;
 }
 
 .selvportraet img {
-  filter: grayscale(100%);
   margin-left: 90px;
 }
 
-.streg {
-  border-right: solid 2px #080808;
-  padding-right: 3%;
+.col1 {
+  background-color: black;
+  border: solid 100px black;
 }
-.grid_1-1 .col {
-  margin-left: 6%;
+
+.col1 h3 {
+  color: white;
+}
+.col1 li {
+  color: white;
+}
+
+.col2 {
+  background-color: white;
+  border: solid 95px white;
 }
 
 .grid_1-1 li {
   margin-left: 3%;
   line-height: 170%;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Cardo", serif;
 }
 
 .grid_1-1 a {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Cardo", serif;
 }
 
-h4 {
-  font-size: 200%;
-  text-align: center;
-  margin-top: 120px;
-  font-family: "Michroma", sans-serif;
+.border {
+  background-color: white;
+  border: solid 33.5px white;
 }
 
 /* TEMA 2 SIDE*/
