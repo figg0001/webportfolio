@@ -93,6 +93,13 @@ h1 {
 }
 h2 {
   margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 /* burgermenu */
@@ -147,7 +154,7 @@ h2 {
 .grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-top: 30px;
 }
 
@@ -156,6 +163,7 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 10px;
   background-color: rgb(233, 229, 222);
+  margin-top: 20px;
 }
 
 .selvportraet {
@@ -166,11 +174,16 @@ h2 {
 }
 
 .streg {
-  border-right: solid 1.3px #e2e0d9;
+  border-right: solid 2px #080808;
   padding-right: 3%;
 }
 .grid_1-1 .col {
   margin-left: 6%;
+}
+
+.grid_1-1 li {
+  margin-left: 3%;
+  line-height: 170%;
 }
 
 h4 {
