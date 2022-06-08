@@ -14,12 +14,13 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding-inline: 1rem;
+  padding: 2%;
 }
 
 body {
   min-height: 100vh;
   line-height: 1.6;
-  background-image: url(fotos/baggrund.svg);
+  background-image: url(fotos/test.svg);
   background-size: cover;
 }
 
@@ -30,6 +31,7 @@ a {
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
+  transition: all 0.3s ease 0s;
 }
 
 a:hover {
@@ -70,9 +72,11 @@ header nav ul {
 }
 
 footer {
-  padding-block: 0.5rem;
+  padding-block: 1rem;
+  color: white;
   position: sticky;
   top: 100vh;
+  background-color: black;
   margin-top: 40px;
 }
 
@@ -90,7 +94,7 @@ p {
   line-height: 180%;
 }
 h1 {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 20px;
   font-size: 2.3rem;
   font-weight: 700;
@@ -99,8 +103,7 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
   font-size: 1.7rem;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
@@ -176,7 +179,8 @@ h3 {
 }
 
 .selvportraet img {
-  margin-left: 90px;
+  margin-left: 95px;
+  margin-top: 10px;
 }
 
 .col1 {
@@ -208,19 +212,26 @@ h3 {
 
 .border {
   background-color: white;
-  border: solid 33.5px white;
+  border: solid 30px white;
 }
 
 /* TEMA 2 SIDE*/
 
-.t2 {
+.t21 {
   max-width: 65ch;
   margin-right: 20px;
+  background-color: white;
+  border: solid 50px white;
+}
+.t21 p {
+  color: black;
 }
 
-figcaption {
-  text-align: center;
-  font-style: italic;
+.t22 {
+  max-width: 65ch;
+  margin-right: 20px;
+  background-color: black;
+  border: solid 50px black;
 }
 
 .grid_1-2 {
@@ -229,9 +240,44 @@ figcaption {
   margin-top: 50px;
 }
 
-.op {
-  font-size: 5rem;
-  text-shadow: 3px 3px rgb(176, 24, 246);
+.knapweb {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 10px solid black;
+  background-color: white;
+  margin-top: 20px;
+  font-size: 150%;
+  padding: 3%;
+  cursor: pointer;
+}
+
+.knapweb a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+}
+
+.web2 img {
+  width: 92%;
+  border: solid black 80px;
+}
+
+video {
+  width: 94%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-bottom: 20px;
+}
+.t23 {
+  margin-top: 120px;
+  max-width: 40ch;
+}
+
+.t23 p {
+  color: black;
 }
 
 /* TEMA 3 SIDE*/
