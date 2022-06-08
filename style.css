@@ -306,4 +306,15 @@ video {
 }
 
 /* TEMA 4 SIDE*/
+.video1 {
+  margin-top: 30px;
+  border: solid 70px black;
+  margin-bottom: 60px;
+}
+
+.hp {
+  width: 55%;
+  margin-left: 70px;
+}
+
 /* TEMA 5 SIDE*/
