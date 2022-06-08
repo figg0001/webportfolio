@@ -318,3 +318,16 @@ video {
 }
 
 /* TEMA 5 SIDE*/
+
+.box1 {
+  border: 40px solid white;
+  background-color: white;
+}
+.box1 p {
+  color: black;
+}
+
+.grid_3 button {
+  margin-top: 140px;
+  border: 20px solid black;
+}
