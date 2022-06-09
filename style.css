@@ -286,16 +286,6 @@ video {
   background-color: black;
 }
 
-.grid_3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 12px;
-}
-
-.grid_3 img {
-  border: solid black 30px;
-}
-
 .grid_1-1 img {
   border: solid black 30px;
 }
@@ -303,6 +293,20 @@ video {
 .border1 {
   background-color: white;
   border: solid 50px white;
+}
+
+.box h3 {
+  color: white;
+}
+
+.grid_3 p {
+  font-style: italic;
+}
+.grid_3a {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* TEMA 4 SIDE*/
@@ -325,6 +329,16 @@ video {
 }
 .box1 p {
   color: black;
+}
+
+.grid_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 12px;
+}
+
+.grid_3 img {
+  border: solid black 30px;
 }
 
 .grid_3 button {
