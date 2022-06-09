@@ -105,12 +105,12 @@ h1 {
   text-align: center;
 }
 h2 {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 1.7rem;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 h3 {
   font-size: 1.2rem;
@@ -309,6 +309,23 @@ video {
   margin-top: 20px;
   border: 20px solid black;
 }
+.grid_1-1a {
+  margin-bottom: 40px;
+}
+
+.grid_1-1a img {
+  width: 50%;
+  border: solid black 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+@media (min-width: 600px) {
+  h2 {
+    margin-top: 80px;
+  }
+}
 
 @media (min-width: 700px) {
   .video1 {
@@ -333,6 +350,7 @@ video {
   h2 {
     text-align: left;
     padding: 2%;
+    margin-top: 30px;
   }
 
   .hp {
@@ -408,9 +426,10 @@ video {
   }
   .grid_3 img {
     border: solid black 30px;
+    width: 100%;
   }
   .grid_3 button {
-    margin-top: 140px;
+    margin-top: 100px;
     border: 20px solid black;
   }
   .grid_1-1 img {
