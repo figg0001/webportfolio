@@ -244,7 +244,7 @@ video {
 }
 
 .grid_1-1 img {
-  border: solid black 30px;
+  border: solid black 10px;
 }
 
 .border1 {
@@ -300,12 +300,6 @@ video {
     margin-top: 30px;
   }
 
-  .grid_3a {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -347,5 +341,17 @@ video {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 50px;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid_3a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .grid_1-1 img {
+    border: solid black 30px;
   }
 }
