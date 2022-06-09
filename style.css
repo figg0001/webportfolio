@@ -5,25 +5,21 @@
   cursor: revert;
   box-sizing: border-box;
 }
-
 img {
   max-width: 100%;
 }
-
 main {
   max-width: 1200px;
   margin: 0 auto;
   padding-inline: 1rem;
   padding: 2%;
 }
-
 body {
   min-height: 100vh;
   background-image: url(fotos/test.svg);
   background-size: cover;
   line-height: 170%;
 }
-
 a {
   font-weight: 500;
   color: black;
@@ -33,15 +29,12 @@ a {
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
-
 a:hover {
   font-weight: 900;
 }
-
 a.current {
   font-weight: 900;
 }
-
 header {
   position: sticky;
   top: 0;
@@ -57,7 +50,6 @@ header .logo {
   width: 6%;
   display: inline-block;
 }
-
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -70,7 +62,6 @@ header nav ul {
   gap: 80px;
   margin-bottom: 0.5rem;
 }
-
 footer {
   padding-block: 1rem;
   color: white;
@@ -79,14 +70,12 @@ footer {
   background-color: black;
   margin-top: 40px;
 }
-
 footer p {
   text-align: center;
   max-width: none;
   font-family: "Cardo", serif;
   font-size: 0.7rem;
 }
-
 p {
   font-size: 18px;
   font-family: "Cardo", serif;
@@ -118,9 +107,7 @@ h3 {
   margin-bottom: 10px;
   font-family: "Josefin Sans", sans-serif;
 }
-
-/* burgermenu */
-
+/* BURGERMENU */
 .toggle-btn {
   background: transparent;
   border: none;
@@ -135,47 +122,38 @@ h3 {
   display: none;
 }
 
-/* MEDIA*/
-
-/* OM MIG SIDE*/
+/* OM MIG SIDE - 600 og under (og generelt)*/
 .selvportraet {
   width: 50%;
   background-color: black;
 }
-
 .selvportraet img {
   margin-left: 150px;
   margin-bottom: 100px;
   border: 40px solid black;
 }
-
 .col1 {
   background-color: black;
   border: solid 100px black;
 }
-
 .col1 h3 {
   color: white;
 }
 .col1 li {
   color: white;
 }
-
 .col2 {
   background-color: white;
   border: solid 95px white;
 }
-
 .grid_1-1 li {
   margin-left: 3%;
   line-height: 170%;
   font-family: "Cardo", serif;
 }
-
 .grid_1-1 a {
   font-family: "Cardo", serif;
 }
-
 .border {
   background-color: white;
   border: solid 30px white;
@@ -184,9 +162,7 @@ h3 {
   border: 40px solid black;
   background-color: black;
 }
-
-/* TEMA 2 SIDE*/
-
+/* TEMA 2 SIDE - 600 og ned (og generelt)*/
 .t21 {
   max-width: 65ch;
   margin-right: 20px;
@@ -196,7 +172,6 @@ h3 {
 .t21 p {
   color: black;
 }
-
 .t22 {
   max-width: 65ch;
   margin-right: 20px;
@@ -204,28 +179,67 @@ h3 {
   border: solid 50px black;
   margin-bottom: 20px;
 }
-
-.knapweb {
-  margin-bottom: 20px;
-  margin-top: 20px;
+.knap {
+  cursor: pointer;
   text-align: center;
 }
-
-button {
+.knap2 {
+  cursor: pointer;
+  text-align: center;
+}
+.knap1 {
+  cursor: pointer;
+  text-align: center;
+}
+.knap button {
+  border: 10px solid black;
+  background-color: white;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  font-size: 150%;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 160%;
+  color: black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px;
+}
+.knap2 button {
   border: 10px solid black;
   background-color: white;
   margin-top: 10px;
-  font-size: 120%;
   padding: 3%;
   cursor: pointer;
   line-height: 170%;
+  color: black;
+  font-size: 120%;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px;
 }
-
-.knapweb a:hover {
+.knap1 button {
+  border: 10px solid white;
+  background-color: black;
+  margin-top: 10px;
+  padding: 3%;
+  cursor: pointer;
+  line-height: 170%;
+  color: white;
+  font-size: 120%;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px;
+}
+button:hover {
   font-weight: 900;
   transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
-
 .web2 img {
   width: 96%;
   border: solid black 20px;
@@ -233,7 +247,6 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
-
 video {
   width: 100%;
   height: auto;
@@ -245,50 +258,39 @@ video {
   margin-bottom: 20px;
   padding-inline: 2rem;
 }
-
 .t23 p {
   color: black;
 }
-
-/* TEMA 3 SIDE*/
-
+/* TEMA 3 SIDE - 600 og ned (og generelt)*/
 .box {
   border: 40px solid black;
   background-color: black;
 }
-
 .grid_1-1 img {
   border: solid black 10px;
   margin-top: 20px;
 }
-
 .border1 {
   background-color: white;
   border: solid 50px white;
 }
-
 .box h3 {
   color: white;
 }
-
 .grid_3 p {
   font-style: italic;
 }
-
-/* TEMA 4 SIDE*/
+/* TEMA 4 SIDE - 600 og ned (og generelt)*/
 .video1 {
   margin-top: 30px;
   border: solid 20px black;
   margin-bottom: 50px;
 }
-
 .hp {
   width: 30%;
   margin-left: 130px;
 }
-
-/* TEMA 5 SIDE*/
-
+/* TEMA 5 SIDE - 600 og ned (og generelt)*/
 .box1 {
   border: 40px solid white;
   background-color: white;
@@ -296,7 +298,6 @@ video {
 .box1 p {
   color: black;
 }
-
 .grid_3 img {
   border: solid black 50px;
   width: 82%;
@@ -304,15 +305,12 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-
 .grid_3 button {
   margin-top: 20px;
-  border: 20px solid black;
 }
 .grid_1-1a {
   margin-bottom: 40px;
 }
-
 .grid_1-1a img {
   width: 50%;
   border: solid black 10px;
@@ -321,26 +319,17 @@ video {
   margin-right: auto;
   margin-bottom: 10px;
 }
+/* MEDIA QUERIES FOR ALLE SIDE (UDEN FORSIDE)*/
 @media (min-width: 600px) {
   h2 {
     margin-top: 80px;
   }
 }
-
 @media (min-width: 700px) {
   .video1 {
     margin-top: 30px;
     border: solid 70px black;
     margin-bottom: 80px;
-  }
-  button {
-    border: 10px solid black;
-    background-color: white;
-    margin-top: 20px;
-    font-size: 150%;
-    padding: 3%;
-    cursor: pointer;
-    line-height: 170%;
   }
   h1 {
     font-size: 2.3rem;
@@ -352,7 +341,6 @@ video {
     padding: 2%;
     margin-top: 30px;
   }
-
   .hp {
     width: 55%;
     margin-left: 50px;
@@ -366,10 +354,6 @@ video {
     width: 92%;
     border: solid black 80px;
   }
-  .knapweb {
-    text-align: center;
-    margin-bottom: 20px;
-  }
   video {
     width: 100%;
     height: auto;
@@ -377,7 +361,6 @@ video {
     margin-bottom: 20px;
     border: 40px solid black;
   }
-
   .box {
     border: 80px solid black;
     background-color: black;
@@ -404,13 +387,11 @@ video {
     background-color: black;
     margin-bottom: 50px;
   }
-
   .selvportraet img {
     margin-left: 50px;
     border: 20px solid black;
   }
 }
-
 @media (min-width: 900px) {
   .grid_3a {
     display: grid;
@@ -430,7 +411,6 @@ video {
   }
   .grid_3 button {
     margin-top: 100px;
-    border: 20px solid black;
   }
   .grid_1-1 img {
     border: solid black 30px;
@@ -452,10 +432,18 @@ video {
     border: solid black 10px;
     width: 100%;
   }
-
   .t23 {
     margin-top: 120px;
     max-width: 40ch;
     margin-left: 20px;
+  }
+  .video1 {
+    margin-top: 100px;
+  }
+  .knap2 button {
+    border: 10px solid white;
+    background-color: black;
+    font-size: 160%;
+    color: white;
   }
 }
