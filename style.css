@@ -102,12 +102,14 @@ h1 {
   color: black;
   text-transform: uppercase;
   line-height: 160%;
+  text-align: center;
 }
 h2 {
   margin-top: 30px;
   font-size: 1.7rem;
   font-weight: 700;
   font-family: "Josefin Sans", sans-serif;
+  text-align: center;
 }
 h3 {
   font-size: 1.2rem;
@@ -195,11 +197,13 @@ h3 {
   margin-right: 20px;
   background-color: black;
   border: solid 50px black;
+  margin-bottom: 20px;
 }
 
 .knapweb {
-  text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 button {
@@ -217,19 +221,23 @@ button {
 }
 
 .web2 img {
-  width: 92%;
-  border: solid black 80px;
+  width: 96%;
+  border: solid black 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 video {
-  width: 94%;
+  width: 100%;
   height: auto;
   aspect-ratio: 16/9;
   margin-bottom: 20px;
 }
 .t23 {
-  margin-top: 120px;
-  max-width: 40ch;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-inline: 2rem;
 }
 
 .t23 p {
@@ -245,6 +253,7 @@ video {
 
 .grid_1-1 img {
   border: solid black 10px;
+  margin-top: 20px;
 }
 
 .border1 {
@@ -292,14 +301,7 @@ video {
   border: 20px solid black;
 }
 
-@media (min-width: 600px) {
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 40px;
-    margin-top: 30px;
-  }
-
+@media (min-width: 700px) {
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -307,9 +309,6 @@ video {
     background-color: black;
     border: black solid 36px;
   }
-}
-
-@media (min-width: 700px) {
   .video1 {
     margin-top: 30px;
     border: solid 70px black;
@@ -342,6 +341,20 @@ video {
     grid-template-columns: 1fr 2fr;
     margin-top: 50px;
   }
+  .web2 img {
+    width: 92%;
+    border: solid black 80px;
+  }
+  .knapweb {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  video {
+    width: 94%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -353,5 +366,15 @@ video {
   }
   .grid_1-1 img {
     border: solid black 30px;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .t23 {
+    margin-top: 120px;
+    max-width: 40ch;
   }
 }
