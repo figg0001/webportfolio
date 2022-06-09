@@ -107,6 +107,7 @@ h3 {
   margin-bottom: 10px;
   font-family: "Josefin Sans", sans-serif;
 }
+
 /* BURGERMENU */
 .toggle-btn {
   background: transparent;
@@ -124,11 +125,11 @@ h3 {
 
 /* OM MIG SIDE - 600 og under (og generelt)*/
 .selvportraet {
-  width: 50%;
+  width: 70%;
   background-color: black;
 }
 .selvportraet img {
-  margin-left: 150px;
+  margin-left: 70px;
   margin-bottom: 100px;
   border: 40px solid black;
 }
@@ -320,6 +321,7 @@ video {
   margin-bottom: 10px;
 }
 /* MEDIA QUERIES FOR ALLE SIDE (UDEN FORSIDE)*/
+
 @media (min-width: 600px) {
   h2 {
     margin-top: 80px;
