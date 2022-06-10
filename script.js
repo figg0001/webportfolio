@@ -1,3 +1,7 @@
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
 const btn = document.querySelector(".toggle-btn");
 const menu = document.querySelector(".main-menu");
 
@@ -7,10 +11,8 @@ function toggleMenu() {
 
   if (menuShown) {
     console.log(menuShown);
-    btn.textContent = " X ";
   } else {
     console.log(menuShown);
-    btn.textContent = "MENU";
   }
 }
 btn.addEventListener("click", toggleMenu);
