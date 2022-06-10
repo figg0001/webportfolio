@@ -136,6 +136,16 @@ h3 {
     flex: 1 1 100%;
     flex-flow: column;
   }
+  header {
+    gap: 20px;
+    padding: 1rem 2rem;
+  }
+  header .logo {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 10%;
+  }
 }
 
 /* OM MIG SIDE - 600 og under (og generelt)*/
