@@ -239,7 +239,7 @@ h3 {
   background-color: white;
   padding-block: 1rem;
   padding-inline: 2rem;
-  font-size: 120%;
+  font-size: 110%;
   font-family: "Josefin Sans", sans-serif;
   line-height: 120%;
   color: black;
@@ -256,7 +256,7 @@ h3 {
   cursor: pointer;
   line-height: 170%;
   color: black;
-  font-size: 120%;
+  font-size: 110%;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -271,7 +271,7 @@ h3 {
   cursor: pointer;
   line-height: 170%;
   color: white;
-  font-size: 120%;
+  font-size: 110%;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
