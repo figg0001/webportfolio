@@ -105,6 +105,7 @@ h3 {
   border: none;
   cursor: pointer;
   display: none;
+  margin-top: 20px;
 }
 .bar1,
 .bar2,
