@@ -65,7 +65,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .knap {
   cursor: pointer;
@@ -90,8 +90,8 @@ button:hover {
   align-items: center;
 }
 .logo {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .logo img {
   width: 30%;
